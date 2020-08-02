@@ -8,9 +8,3 @@
   background: #fafafafa;
   height: 100%;
 }
-
-.app__header {
-  background: white;
-  object-fit: contain;
-  padding: 20px;
-}
