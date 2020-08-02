@@ -1,0 +1,18 @@
+.post__header {
+  bject-fit: contain;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+.post__avatar {
+  margin-right: 10px;
+dding: 10px;
+}
+.post__avatar {
+  margin-right: 10px;
+}
+.header__user {
+  display: flex;
+   align-items: center;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  font-family: sans-serif;
+  background: #fafafafa;
+  height: 100%;
+}
+
+.app__header {
+  background: white;
+  object-fit: contain;
+  padding: 20px;
+}
