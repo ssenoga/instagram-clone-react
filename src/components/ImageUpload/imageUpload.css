@@ -1,0 +1,32 @@
+.imageupload__container {
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+}
+.imageupload__items {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px auto;
+}
+.imageupload__progress {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .imageupload__items {
+    width: 100%;
+  }
+}
+
+.imageupload__items input {
+  padding: 5px 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.imageupload__items input[type="text"] {
+  padding: 12px;
+}

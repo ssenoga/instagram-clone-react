@@ -2,10 +2,10 @@ import React from "react";
 
 import "./image.css";
 
-export default function Image(){
+export default function Image({ image }) {
   return (
     <div>
-       <img className="post__image" src="https://reactjs.org/logo-og.png" alt="post" />
+      <img className="post__image" src={image} alt="post" />
     </div>
-  )
+  );
 }
